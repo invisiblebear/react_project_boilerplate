@@ -1,0 +1,51 @@
+{
+  "name": "react-getting-started",
+  "version": "1.0.0",
+  "description": "demo app from \"React.js: Getting Started\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "./node_modules/.bin/webpack-dev-server --config ./webpack/webpack.dev.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/invisiblebear/react-getting-started.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/invisiblebear/react-getting-started/issues"
+  },
+  "homepage": "https://github.com/invisiblebear/react-getting-started#readme",
+  "dependencies": {
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "webpack": "^4.29.0",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "css-loader": "^2.1.0",
+    "less": "^3.9.0",
+    "less-loader": "^4.1.0",
+    "style-loader": "^0.23.1",
+    "webpack-cli": "^3.2.1"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "react",
+      "stage-0"
+    ],
+    "plugins": [
+      "transform-object-rest-spread"
+    ]
+  }
+}
