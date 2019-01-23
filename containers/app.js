@@ -2,6 +2,6 @@ import React, {Component} from 'react';
 
 export default class App extends Component {
     render(){
-        return <p>this is my new React App</p>
+        return <p>Proves the app is running</p>
     }
 }
