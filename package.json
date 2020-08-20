@@ -18,10 +18,10 @@
   },
   "homepage": "https://github.com/invisiblebear/react-getting-started#readme",
   "dependencies": {
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0",
-    "webpack": "^4.29.0",
-    "webpack-dev-server": "^3.1.14"
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "webpack": "^4.44.1",
+    "webpack-dev-server": "^3.11.0"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
@@ -32,11 +32,11 @@
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
     "babel-register": "^6.26.0",
-    "css-loader": "^2.1.0",
-    "less": "^3.9.0",
+    "css-loader": "^2.1.1",
+    "less": "^3.12.2",
     "less-loader": "^4.1.0",
     "style-loader": "^0.23.1",
-    "webpack-cli": "^3.2.1"
+    "webpack-cli": "^3.3.12"
   },
   "babel": {
     "presets": [
